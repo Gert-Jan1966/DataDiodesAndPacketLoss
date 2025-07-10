@@ -1,0 +1,25 @@
+
+Current kernel module config:
+Default UDP.c kernel module
+
+Test results
+------------
+Bitrate: 1000000000 bits/second
+Success rate: 099.6%
+Average duration: 1.40 seconds
+
+Bitrate: 750000000 bits/second
+Success rate: 100.0%
+Average duration: 1.53 seconds
+
+Bitrate: 500000000 bits/second
+Success rate: 100.0%
+Average duration: 2.23 seconds
+
+Bitrate: 250000000 bits/second
+Success rate: 100.0%
+Average duration: 4.32 seconds
+
+Bitrate: 100000000 bits/second
+Success rate: 100.0%
+Average duration: 10.41 seconds
