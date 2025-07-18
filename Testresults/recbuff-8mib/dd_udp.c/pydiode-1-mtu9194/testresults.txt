@@ -1,0 +1,28 @@
+
+Current kernel module config:
+dd_udp.c - Sender IF: enp1s0 (ns_fd: 3), Receiver IF: enp2s0 (ns_fd: 4), Verbose: 0, Checksumming: 0
+
+Test results
+------------
+
+Redundancy: 1
+
+Bitrate: 1000000000 bits/second
+Success rate: 100.0%
+Average duration: 1.36 seconds
+
+Bitrate: 750000000 bits/second
+Success rate: 100.0%
+Average duration: 1.59 seconds
+
+Bitrate: 500000000 bits/second
+Success rate: 100.0%
+Average duration: 2.29 seconds
+
+Bitrate: 250000000 bits/second
+Success rate: 100.0%
+Average duration: 4.37 seconds
+
+Bitrate: 100000000 bits/second
+Success rate: 100.0%
+Average duration: 10.50 seconds
