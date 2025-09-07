@@ -10,4 +10,4 @@ This directory contains all the test scrips, written in Python.<br>
 
 ## Remarks
 - These scripts are not build with object orientation in mind; however code modularization has been applied.
-- The scripts still need ongoing refactoring.
+- The scripts need refactoring.
