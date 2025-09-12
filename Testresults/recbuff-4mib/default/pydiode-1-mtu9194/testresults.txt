@@ -9,20 +9,12 @@ Redundancy: 1
 
 Bitrate: 1000000000 bits/second
 Success rate: 100.0%
-Average duration: 1.49 seconds
+Average duration: 1.36 seconds
 
 Bitrate: 750000000 bits/second
 Success rate: 100.0%
-Average duration: 1.66 seconds
+Average duration: 1.58 seconds
 
 Bitrate: 500000000 bits/second
 Success rate: 100.0%
-Average duration: 2.35 seconds
-
-Bitrate: 250000000 bits/second
-Success rate: 100.0%
-Average duration: 4.33 seconds
-
-Bitrate: 100000000 bits/second
-Success rate: 100.0%
-Average duration: 10.44 seconds
+Average duration: 2.30 seconds
