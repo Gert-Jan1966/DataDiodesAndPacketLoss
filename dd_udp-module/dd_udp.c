@@ -12,8 +12,11 @@
 #include <linux/atomic.h>          // Atomic operations for thread-safe counters
 #include <net/checksum.h>          // For checksum functions like csum_partial and csum_tcpudp_nofold
 
-MODULE_LICENSE("GPL");             // Specifies the module's license as GPL
-MODULE_DESCRIPTION("Enhanced UDP Data Diode Module with Packet/Datagram Loss, Corruption Tracking, and Offloading Awareness");  // Updated description
+MODULE_AUTHOR("G.J. den Besten");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Enhanced UDP Data Diode Module with Packet/Datagram Loss, "
+                   "Corruption Tracking, and Offloading Awareness. "
+                   "This code forms an integral part of my Masters graduation project.");
 
 #define NETLINK_DIODE 31         // Custom Netlink protocol number (unique identifier)
 #define NL_GROUP 1               // Netlink multicast group for broadcasting messages
