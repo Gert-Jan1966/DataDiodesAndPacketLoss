@@ -1,21 +1,22 @@
-# Notebooks
+# Work in Progress
 
-This directory contains Jupyter notebooks used for analysing `Testresults`.<br>
-The tables below serve as indexes for easier navigation through the subdirectories.
+# Index to Notebooks and Test Results
+
+This document contains indexes to the Jupyter notebooks used for analysing `Testresults` and to the directories containing the test results.<br>
 
 ---
 
 ### Baseline test results
 These tests were conducted with the default socket buffer sizes of 208 KiB
 
-| Tool                  | Kernel module | Notebook |
-| ---                   | :---:         | ---      |
-| Netcat                | UDP.c         | [NC-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/NC-default-tests.ipynb) |
-| Netcat                | dd_udp.c      | [NC-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/NC-dd_udp-tests.ipynb) |
-| pydiode; redundancy=1 | UDP.c         | [pydiode-1-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-1-default-tests.ipynb) |
-| pydiode; redundancy=1 | dd_udp.c      | [pydiode-1-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-1-dd_udp-tests.ipynb) |
-| pydiode; redundancy=2 | UDP.c         | [pydiode-2-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-2-default-tests.ipynb) |
-| pydiode; redundancy=2 | dd_udp.c      | [pydiode-2-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-2-dd_udp-tests.ipynb) |
+| Tool                  | Kernel module | Notebook | Test results directory |
+| ---                   | :---:         | ---      | ---      |
+| Netcat                | UDP.c         | [NC-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/NC-default-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/default/nc)
+| Netcat                | dd_udp.c      | [NC-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/NC-dd_udp-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/dd_udp.c/nc)
+| pydiode; redundancy=1 | UDP.c         | [pydiode-1-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-1-default-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/default/pydiode)
+| pydiode; redundancy=1 | dd_udp.c      | [pydiode-1-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-1-dd_udp-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/dd_udp.c/pydiode)
+| pydiode; redundancy=2 | UDP.c         | [pydiode-2-default-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-2-default-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/default/pydiode)
+| pydiode; redundancy=2 | dd_udp.c      | [pydiode-2-dd_udp-tests.ipynb](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/blob/main/Notebooks/baseline/pydiode-2-dd_udp-tests.ipynb) | [Link](https://github.com/Gert-Jan1966/DataDiodesAndPacketLoss/tree/main/Testresults/Baseline/dd_udp.c/pydiode)
 
 
 ---
