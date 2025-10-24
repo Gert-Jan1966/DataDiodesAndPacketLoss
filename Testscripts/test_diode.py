@@ -147,7 +147,7 @@ def test_redundancies(redundancies, sock, tool):
 ## Main script
 #
 
-## Checks with module is loaded and get Netlink socket if available
+## Checks which module is loaded and get Netlink socket if available
 if not DEFAULT_UDP_MODULE:
     try:
         sock = initialize_netlink_socket()
